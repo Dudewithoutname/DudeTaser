@@ -171,3 +171,4 @@ C:\Users\Správca\Desktop\Things\UnturnedPLUGINS_ROLEPLAY\Plugin\DudeTaser\obj\D
 C:\Users\Správca\Desktop\Things\UnturnedPLUGINS_ROLEPLAY\Plugin\DudeTaser\obj\Debug\DudeTaser.csproj.CopyComplete
 C:\Users\Správca\Desktop\Things\UnturnedPLUGINS_ROLEPLAY\Plugin\DudeTaser\obj\Debug\DudeTaser.dll
 C:\Users\Správca\Desktop\Things\UnturnedPLUGINS_ROLEPLAY\Plugin\DudeTaser\obj\Debug\DudeTaser.pdb
+C:\Users\Správca\Desktop\Things\UnturnedPLUGINS_ROLEPLAY\Plugin\DudeTaser\bin\Debug\SDG.Glazier.Runtime.dll
