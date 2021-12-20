@@ -45,7 +45,8 @@ namespace DudeTaser
 
         private void OnPlayerDamage(UnturnedPlayer victim, ref EDeathCause cause, ref ELimb limb, ref UnturnedPlayer attacker, ref Vector3 direction, ref float damage, ref float times, ref bool canDamage)
         {
-            if ( cause == EDeathCause.GUN && attacker.Player.equipment.itemID == Configuration.Instance.TaserId  && attacker.Player.equipment.isEquipped && !TasedPlayers.Contains(attacker.CSteamID))
+            if (cause == EDeathCause.GUN && attacker.Player.equipment.itemID == Configuration.Instance.TaserId  
+                && attacker.Player.equipment.isEquipped && !TasedPlayers.Contains(attacker.CSteamID) && attacker.HasPermission(Configuration.Instance.TaserPermission))
             {
                 victim.Player.equipment.dequip();
                 victim.Player.movement.sendPluginSpeedMultiplier(0.1f);
